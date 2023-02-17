@@ -1,12 +1,15 @@
 import React from "react";
-import Banner from "../../../assets/Image/Home_banner.png";
-import Services from "./Services";
-import About from "./About";
-import FeaturedBooks from "./FeaturedBooks";
+import Banner from "../../../../assets/Image/Home_banner.png";
+import About from "../About/About";
+import NewArrivals from "../About/NewArrivals";
+import FeaturedBooks from "../BookGallery/FeaturedBooks";
+import Hero from "../Hero/Hero";
+import OurBlog from "../Hero/OurBlog/OurBlog";
+import Services from "../Services/Services";
 
 const Home = () => {
   return (
-    <div>
+    <div id="Home">
       <div className="grid gap-20 grid-cols-1 lg:grid-cols-2 text-start py-20">
         <div>
           <h1 className="text-5xl leading-tight font-bold mb-10">
@@ -31,8 +34,9 @@ const Home = () => {
       <Services />
       <About />
       <FeaturedBooks />
-
-      <div className="border h-[300px] ">hekki</div>
+      <NewArrivals />
+      <Hero />
+      <OurBlog />
     </div>
   );
 };

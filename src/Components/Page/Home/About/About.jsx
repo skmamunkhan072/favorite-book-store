@@ -1,9 +1,12 @@
 import React from "react";
-import AboutImg from "../../../assets/Image/about.png";
+import AboutImg from "../../../../assets/Image/about.png";
 
 const About = () => {
   return (
-    <div className="grid gap-20 grid-cols-1 lg:grid-cols-2 text-start py-20">
+    <section
+      id="About"
+      className="grid gap-20 grid-cols-1 lg:grid-cols-2 text-start py-20"
+    >
       <div>
         <img src={AboutImg} alt="This is banner img " />
       </div>
@@ -25,7 +28,7 @@ const About = () => {
           Learn more
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 
