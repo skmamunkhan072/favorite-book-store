@@ -91,7 +91,7 @@ const NavBar = () => {
   );
   return (
     <section>
-      <nav className="dark:bg-gray-900">
+      <nav className="bg-gray-900">
         <div className="px-4  py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="relative flex items-center  justify-between relative">
             <Link
@@ -102,7 +102,7 @@ const NavBar = () => {
             >
               {navLogo}
             </Link>
-            <ul className="flex items-center  hidden space-x-8 lg:flex justify-center ">
+            <ul className="flex items-center  hidden space-x-8 lg:flex justify-center text-gray-300">
               {naveMenu}
             </ul>
             <div
@@ -116,8 +116,8 @@ const NavBar = () => {
                     <img src="https://i.ibb.co/1RxyTLZ/people3.png" />
                   </div>
                 </div>
-                <h2>sk Mamun Khan</h2>
-                <h4>Role: user</h4>
+                <h2 className="text-gray-300">sk Mamun Khan</h2>
+                <h4 className="text-gray-300">Role: user</h4>
               </div>
               <hr />
               <div

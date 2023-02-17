@@ -11,7 +11,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#150F2D] px-14 pt-10">
+    <footer className="bg-[#150F2D] px-14 pt-10 text-gray-300">
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-start">
         <div>
           <i className="text-8xl text-teal-accent-400">

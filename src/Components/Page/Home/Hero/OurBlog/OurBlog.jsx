@@ -46,7 +46,7 @@ const OurBlog = () => {
             <figure className="h-[300px]">
               <img src={data?.blogImg} alt="Shoes" />
             </figure>
-            <div className="card-body">
+            <div className="card-body text-gray-300">
               <h2 className="card-title">Bloger!</h2>
               <p className="text-start">
                 {data?.blogDescription.length > 200
